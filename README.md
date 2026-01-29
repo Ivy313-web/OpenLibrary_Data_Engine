@@ -4,6 +4,8 @@ A high-performance Python scraper using Requests and XPath (lxml) to extract mul
 
 After building my BBC Scraper with Selenium, I wanted to explore **performance optimization**. By using `Requests` and `XPath`, this engine retrieves data significantly faster than traditional browser automation, while handling more complex data structures.
 
+*****************************************************************************************************************************************************************************
+
 Key Features
 - **High-Speed Parsing**: Utilizes `lxml` and `XPath` for near-instant data extraction.
 - **Deep Data Mining**: Scrapes Title, Author, User Ratings, "Want to Read" counts, and direct links.
@@ -20,11 +22,17 @@ Future Roadmap
 - Implement **Multi-threading** to scrape 50+ pages in seconds.
 - Add **Book Cover Downloader** using `urllib`.
 - Develop a **GUI (Graphical User Interface)** for non-technical users.
-
-How to run?
+  
+***********************************************************************************
+How to run?                                          
 In the side document panel：
 library.py(main file)
 library_save_method.py(save method file)
+
+OR
+
+clone the addresss:https://github.com/Ivy313-web/OpenLibrary_Data_Engine.git
+***********************************************************************************
 
 New code, new knowledge, isn't it?😎
 
